@@ -78,6 +78,10 @@ else{
 
 
 
+
+
+
+
 // Hightest score and the output of quiz or users score
 if(score > 5) {
     console.log("Your Score is : "+score+"🥳" +"\nThe Hightest Scores are🔥 : 1.Mitanshu - 9😀\n2.Ashutosh - 8😀\n3.Shivarth - 8😀\nSend me Screenshot and i will update this list");
@@ -85,3 +89,25 @@ if(score > 5) {
 else{
   console.log("You Dont know ashish enough\nWell No Prob Thanks for Playing This...🥳");
 }
+
+
+
+
+ //--------------------------array objects for high scores
+// var highScores = [{
+//   naam : "Mitanshu",
+//   score : 9,
+// },{
+//   naam : "Ashutosh",
+//   score : 8,
+// },{
+//   naam : "Shivarth",
+//   score : 8,
+// }
+// ];
+
+// for(var eye=0;eye<highScores.length;eye++) {
+//   var recentScore = highScores[eye];
+//   console.log(recentScore.naam);
+//   console.log(recentScore.score);
+// }
